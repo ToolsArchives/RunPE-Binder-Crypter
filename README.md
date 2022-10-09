@@ -6,5 +6,7 @@ it is experimental, if you create a payload make sure to test it before sending 
 if you have bugs or question open an issue and i can try to solve it.
 this can bind to most .net program and keep them functioning, even with needed other components.
 
+.:: NOTES: when you use runpe, uac/admin privilege is not possible, same with adding to startup because it will just add what it injected to startup (not payload itself),
+
 ![alt text](https://github.com/De-eloper/RunPE-Binder-Crypter/raw/main/screenshot.PNG)
 
