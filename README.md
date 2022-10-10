@@ -8,7 +8,7 @@ this can bind to most .net program and keep them functioning, even with needed o
 
 .:: NOTES: when you use runpe, uac/admin privilege is not possible, same with adding to startup because it will just add what it injected to startup (not payload itself),
 
-.:: NOTES: the stub is in .net, the victim will inject into itself, so the victim cannot be in native, only .net. however the payload can be injected into a native process like vbc.exe or cvtres.exe
+.:: NOTES: the stub is in .net, the victim will inject into itself, so the victim cannot be in native, only .net. however if the payload is native then it can be injected into a native process like vbc.exe or cvtres.exe
 
 ![alt text](https://github.com/De-eloper/RunPE-Binder-Crypter/raw/main/screenshot.PNG)
 
