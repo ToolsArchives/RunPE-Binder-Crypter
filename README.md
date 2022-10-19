@@ -10,5 +10,7 @@ Notes:
 1. With RunPE, Admin is not possible, same with adding to startup because it will just add what it injected to startup. (Not your payload itself)  
 2. Stub is in C# .net, the victim will inject into itself, so the victim cannot be in native, only .net. however if the payload is native then it can be injected into a native process like vbc.exe or cvtres.exe  
   
-![alt text](https://github.com/De-eloper/RunPE-Binder-Crypter/raw/main/screenshot.PNG)  
+  
+  
+![Screenshot](https://github.com/De-eloper/Image-Storage/raw/main/Screenshot.PNG?raw=true)  
   
