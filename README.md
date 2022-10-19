@@ -1,14 +1,14 @@
-# RunPE-Binder-Crypter
+# RunPE Binder & Crypter
 
-### Tutorial video on how to use example: [https://streamja.com/3mwKA](https://streamja.com/3mwKA)
+### Usage example: [https://streamja.com/3mwKA](https://streamja.com/3mwKA)
 
-it is experimental, if you create a payload make sure to test it before sending it through internet.
-if you have bugs or question open an issue and i can try to solve it.
-this can bind to most .net program and keep them functioning, even with needed other components.
+It is experimental, if you create a payload, test it before sending it through the internet.  
+If you have a bug or question, please open an issue and I can try to solve it.  
+This can bind to most .net program sand keep them functioning, even with needed other components.  
 
-.:: NOTES: when you use runpe, uac/admin privilege is not possible, same with adding to startup because it will just add what it injected to startup (not payload itself),
-
-.:: NOTES: the stub is in .net, the victim will inject into itself, so the victim cannot be in native, only .net. however if the payload is native then it can be injected into a native process like vbc.exe or cvtres.exe
-
-![alt text](https://github.com/De-eloper/RunPE-Binder-Crypter/raw/main/screenshot.PNG)
-
+Notes:  
+1. With RunPE, Admin is not possible, same with adding to startup because it will just add what it injected to startup. (Not your payload itself)  
+2. Stub is in C# .net, the victim will inject into itself, so the victim cannot be in native, only .net. however if the payload is native then it can be injected into a native process like vbc.exe or cvtres.exe  
+  
+![alt text](https://github.com/De-eloper/RunPE-Binder-Crypter/raw/main/screenshot.PNG)  
+  
