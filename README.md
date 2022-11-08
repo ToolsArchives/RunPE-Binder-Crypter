@@ -1,5 +1,5 @@
 # RunPE Binder & Crypter
-
+## I do not recommend this for any serious usage, the code is poorly done and a new crypter with source code may be released at a later date, this version is very buggy and unstable, including limited support for many .exes!
 
 It is experimental, if you create a payload, test it before sending it through the internet.  
 If you have a bug or question, please open an issue and I can try to solve it.  
