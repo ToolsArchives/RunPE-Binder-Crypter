@@ -1,4 +1,10 @@
 # RunPE Binder & Crypter
+<b>All of the content here is for educational, research and reversing purposes only.  
+I am not responsible for any damages or illegal usage of any programs posted.  
+There is no guarantee that any program here is infected or not.  
+Please use a virtual machine, sandbox or decompile before you use it.  
+  
+  Good luck.</b> 
 ## I do not recommend this for any serious usage, the code is poorly done and a new crypter with source code may be released at a later date, this version is very buggy and unstable, including limited support for many .exes!
 
 It is experimental, if you create a payload, test it before sending it through the internet.  
